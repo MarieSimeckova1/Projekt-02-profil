@@ -17,5 +17,83 @@ tlačítko twitter          #1da1f2
 
 body {
   background-color: #bdc3c7;
+  font-family: "Montserrat", sans-serif;
+}
+ /*odsud už doplňuju já*/
+
+
+.profil {
+  background-color: #31363b;
+  color:white;
+  margin: 50px;
+ width: 25%;
+  box-shadow:3px 3px 3px #3f464d;
+  position:relative;
+}
+.hlavicka{
+  position: relative;
+}
+.obsah{
+  padding:30px;
+  font-family: "Source Code Pro", monospace;;
 }
 
+
+.logo{
+  position: absolute;
+  background-color: #b92e81;
+  border-radius: 50%;
+  bottom: -20px;
+  right:20px;
+box-shadow: 3px 3px 3px black;
+}
+.foto{
+  width: 100%;
+}
+li{
+  display: inline-block;
+}
+.portfolio{
+ border-top:#3f464d;
+  border-bottom:#3f464d;
+  border-style: solid;
+  border-width: 2px;
+ border-left: none;
+  border-right: none;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  width: 75%;
+  position: relative;
+  left:20px;
+}
+.portfolio a:hover{
+  background-color: #e74c3c;
+}
+
+a{
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.facebook{
+  position: absolute;
+  left:15%;
+}
+.facebook a:hover{
+  background-color: #3b5998;
+}
+
+.twitter{
+  position: absolute;
+  right:15%;
+}
+.twitter a:hover{
+  background-color: #1da1f2;
+}
+
+.odkazy{
+  padding: 0;
+}
